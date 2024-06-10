@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<data grt_format="2.0">
+  <value _ptr_="0000024E32658820" type="list" content-type="object" content-struct-name="db.mgmt.ServerInstance">
+    <value type="object" struct-name="db.mgmt.ServerInstance" id="{784F310B-E767-4BA5-A9BF-022CBBC2D632}" struct-checksum="0x367436e2">
+      <link type="object" struct-name="db.mgmt.Connection" key="connection">{FD882F38-B9F6-45F9-A2FF-66EB83829F34}</link>
+      <value _ptr_="0000024E327BD960" type="dict" key="loginInfo">
+        <value type="string" key="wmi.hostName"></value>
+        <value type="string" key="wmi.userName"></value>
+      </value>
+      <value _ptr_="0000024E327BF3A0" type="dict" key="serverInfo">
+        <value type="string" key="detected_os_name">Windows 10 Home</value>
+        <value type="string" key="detected_os_type">windows</value>
+        <value type="string" key="detected_os_variant">Windows</value>
+        <value type="string" key="detected_os_version">Microsoft Windows [Version 10.0.22621.1702]</value>
+        <value type="string" key="errorLogFilePath">HAMED-M.err</value>
+        <value type="int" key="setupPending">0</value>
+        <value type="string" key="sys.config.path">C:\ProgramData\MySQL\MySQL Server 8.0\my.ini</value>
+        <value type="int" key="sys.config.path.lock">1</value>
+        <value type="string" key="sys.config.section">mysqld</value>
+        <value type="string" key="sys.mysqld.service_name">MySQL80</value>
+        <value type="string" key="sys.preset">Custom</value>
+        <value type="string" key="sys.sudo"></value>
+        <value type="string" key="sys.system">Windows</value>
+        <value type="int" key="sys.usesudo">1</value>
+        <value type="int" key="sys.usesudostatus">0</value>
+        <value type="int" key="windowsAdmin">1</value>
+      </value>
+      <value type="string" key="name">Local MySQL80</value>
+    </value>
+  </value>
+</data>

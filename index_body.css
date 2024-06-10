@@ -1,0 +1,145 @@
+
+.smart_butten {
+    width: 50px;
+    height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 290px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: black;
+    background-color: rgba(255,255,255,0);
+    position: relative;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.7s;
+    animation: shake 3s;
+    animation-iteration-count: infinite;
+}
+
+.smart_butten:hover {
+    background-color: rgba(255,255,255,0);
+    animation: none;
+    transition: 0.7s;
+    margin-top: 300px;
+}
+
+.smart_butten:hover>div {
+    background-color: rgba(255,255,255,0);
+    transition: 0.7s;
+}
+
+.smart_butten>div {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255,255,255,0.7);
+    float: left;
+    margin: 2.5px;
+    transition: 0.7s;
+}
+
+.smart_butten>span {
+    width: 1300px;
+    height: 510px;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    border: black;
+    background-color: rgba(255,255,255,0.3);
+    font-family: "B Titr";
+    font-size: 17pt;
+    direction: rtl;
+    position: absolute;
+    top: -250px;
+    left: -625px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.7s;
+}
+.smart_butten:hover>span {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.7s;
+    top: -275px;
+    width: 1300px;
+    height: 510px;
+}
+
+.smart_butten:hover>span button {
+    width: 630px;
+    height: 235px;
+    float: left;
+    background-color: rgba(255,255,255,0.6);
+    text-align: center;
+    margin: 10px;
+    border-radius: 315px;
+    font-family: "B Titr";
+    color: azure;
+    line-height: 245px;
+    cursor: pointer;
+    font-size: 17pt;
+    transition: 0.7s;
+}
+
+.smart_butten>span button {
+    width: 25px;
+    height: 25px;
+    float: left;
+    background-color: rgba(255,255,255,0.6);
+    text-align: center;
+    margin-top: 115px;
+    margin-bottom: 115px;
+    margin-left: 312.5px;
+    margin-right: 312.5px;
+    border-radius: 12.5px;
+    font-family: "B Titr";
+    color: rgba(255,255,255,0);
+    line-height: 245px;
+    cursor: pointer;
+    font-size: 1pt;
+    transition: 0.7s;
+    box-shadow: none;
+}
+
+.smart_butten:hover>span button:hover{
+    width: 630px;
+    height: 235px;
+    float: left;
+    background-color: rgba(140,140,140,0.7);
+    text-align: center;
+    margin: 10px;
+    border-radius: 315px;
+    font-family: "B Titr";
+    color: azure;
+    line-height: 245px;
+    cursor: pointer;
+    font-size: 17pt;
+    transition: 0.7s;
+    box-shadow: none;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    5% { transform: translate(-1px, -2px) rotate(-1deg); }
+    10% { transform: translate(-3px, 0px) rotate(1deg); }
+    15% { transform: translate(3px, 2px) rotate(0deg); }
+    20% { transform: translate(1px, -1px) rotate(1deg); }
+    25% { transform: translate(-1px, 2px) rotate(-1deg); }
+    30% { transform: translate(-3px, 1px) rotate(0deg); }
+    35% { transform: translate(3px, 1px) rotate(-1deg); }
+    40% { transform: translate(-1px, -1px) rotate(1deg); }
+    45% { transform: translate(1px, 2px) rotate(0deg); }
+    50% { transform: translate(1px, -2px) rotate(-1deg); }
+    55% { transform: translate(0px, 0px) rotate(0deg); }
+    60% { transform: translate(0px, 0px) rotate(0deg); }
+    65% { transform: translate(0px, 0px) rotate(0deg); }
+    70% { transform: translate(0px, 0px) rotate(0deg); }
+    75% { transform: translate(0px, 0px) rotate(0deg); }
+    80% { transform: translate(0px, 0px) rotate(0deg); }
+    85% { transform: translate(0px, 0px) rotate(0deg); }
+    90% { transform: translate(0px, 0px) rotate(0deg); }
+    95% { transform: translate(0px, 0px) rotate(0deg); }
+    100% { transform: translate(0px, 0px) rotate(0deg); }
+}

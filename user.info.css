@@ -1,0 +1,56 @@
+.back_info {
+    text-align: center;
+    width: 60%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    border: black;
+    background-color: rgba(255,255,255,0.3);
+    font-family: "B Titr";
+    font-size: 17pt;
+    direction: rtl;
+}
+
+.image_top {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.person_info {
+    width: 100%;
+}
+
+.person_info tr {
+    width: 100%;
+    height: 70px;
+}
+
+.person_info tr td {
+    width: 49%;
+    height: 100%;
+    line-height: 70px;
+    text-align: center;
+}
+
+.person_info tr td div {
+    height: 100%;
+    line-height: 30px;
+    direction: rtl;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 15pt;
+    border-radius: 10px;
+    width: 300px;
+    background-color: #D7E6FB;
+    color: #2e2e2e;
+}
+
+.show_id {
+    width: 100%;
+    font-size: 30pt;
+}

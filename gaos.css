@@ -1,0 +1,85 @@
+.get_number {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    width: 400px;
+    height: 50px;
+    border-radius: 7px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.get_number input {
+    height: 20px;
+    width: 60px;
+}
+
+.get_Equations {
+    direction: ltr;
+    text-align: center;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.get_Equations input {
+    width: 45px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.btn_submit {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.error {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "B Titr";
+    font-size: 17pt;
+    direction: rtl;
+}
+
+.result {
+    text-align: center;
+    width: 80%;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    border: black;
+    background-color: rgba(255,255,255,0.3);
+    font-family: "B Titr";
+    font-size: 17pt;
+    direction: rtl;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.show_matrix {
+    padding: 7px;
+    margin: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: black;
+    direction: ltr;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+}
+
+.show_matrix tr {
+    padding: 5px;
+}
